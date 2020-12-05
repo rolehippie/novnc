@@ -1,0 +1,70 @@
+# Standards: 0.1
+---
+# @var novnc_binary_version:description: Version of the binary to download
+novnc_binary_version: 1.1.0
+
+# @var novnc_binary_url:description: URL where to get the binary release from
+novnc_binary_url: "https://github.com/pgaskin/easy-novnc/releases/download/v{{ novnc_binary_version }}/easy-novnc_linux-64bit"
+
+# @var novnc_binary_checksum:description: Checksem of the binary release
+novnc_binary_checksum: sha256:395407ae7e824a7706bc259f0b8fc1c8b98b068a4bb76a3139b02c8a331be5b3
+
+# @var novnc_address:description: Address to listen on for the service
+novnc_address: 0.0.0.0:8080
+
+# @var novnc_basic_ui:description: Hide connection options from the main screen
+novnc_basic_ui: False
+
+# @var novnc_no_url_password:description: Do not allow password in URL params
+novnc_no_url_password: False
+
+# @var novnc_default_view_only:description: Use view-only by default
+novnc_default_view_only: False
+
+# @var novnc_verbose:description: Enable verbos logging for the service
+novnc_verbose: False
+
+# @var novnc_host:description: Default host to connect to
+novnc_host:
+
+# @var novnc_verbose:description: Default port to connect to
+novnc_port:
+
+# @var novnc_arbitrary_hosts:description: Allow connections to other hosts
+novnc_arbitrary_hosts: False
+
+# @var novnc_arbitrary_ports:description: Allow connections to other ports
+novnc_arbitrary_ports: False
+
+# @var novnc_hosts_selection:description: List of host selection allowed to connect to
+# novnc_hosts_selection:
+#   - name1:127.0.0.1:5900
+#   - name2:127.0.0.1:5901
+#   - name3:127.0.0.1:5902
+# @end
+novnc_hosts_selection: []
+
+# @var novnc_cidr_whitelist:description: List of CIDR whitelist if arbitrary hosts are enabled
+# novnc_cidr_whitelist:
+#   - 10.13.37.1/24
+#   - 192.168.1.1/24
+#   - 192.168.100.1/24
+# @end
+novnc_cidr_whitelist: []
+
+# @var novnc_cidr_blacklist:description: List of CIDR blacklist if arbitrary hosts are enabled
+# novnc_cidr_blacklist:
+#   - 10.13.37.1/24
+#   - 192.168.1.1/24
+#   - 192.168.100.1/24
+# @end
+novnc_cidr_blacklist: []
+
+# @var novnc_params:description: List of extra params for noVNC
+# novnc_params:
+#   - resize=remote
+#   - reconnect_delay=100
+# @end
+novnc_params: []
+
+...

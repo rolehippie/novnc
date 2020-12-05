@@ -1,0 +1,25 @@
+NOVNC_ADDR={{ novnc_address }}
+NOVNC_BASIC_UI={{ novnc_basic_ui | lower }}
+NOVNC_NO_URL_PASSWORD={{ novnc_no_url_password | lower }}
+NOVNC_DEFAULT_VIEW_ONLY={{ novnc_default_view_only | lower }}
+NOVNC_VERBOSE={{ novnc_verbose | lower }}
+{% if novnc_host | default(False) %}
+NOVNC_HOST={{ novnc_host }}
+{% endif %}
+{% if novnc_port | default(False) %}
+NOVNC_PORT={{ novnc_port }}
+{% endif %}
+NOVNC_ARBITRARY_HOSTS={{ novnc_arbitrary_hosts | lower }}
+NOVNC_ARBITRARY_PORTS={{ novnc_arbitrary_ports | lower }}
+{% if novnc_hosts_selection | default(False) %}
+NOVNC_HOSTS_SELECTION={{ novnc_hosts_selection | join(',') }}
+{% endif %}
+{% if novnc_cidr_whitelist | default(False) %}
+NOVNC_CIDR_WHITELIST={{ novnc_cidr_whitelist | join(',') }}
+{% endif %}
+{% if novnc_cidr_blacklist | default(False) %}
+NOVNC_CIDR_BLACKLIST={{ novnc_cidr_blacklist | join(',') }}
+{% endif %}
+{% if novnc_params | default(False) %}
+NOVNC_PARAMS={{ novnc_params | join(',') }}
+{% endif %}

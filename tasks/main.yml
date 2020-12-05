@@ -1,0 +1,42 @@
+# Standards: 0.1
+---
+- name: Download release tarball
+  get_url:
+    url: "{{ novnc_binary_url }}"
+    checksum: "{{ novnc_binary_checksum }}"
+    dest: /usr/bin/easy-novnc
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - novnc
+
+- name: Write default config
+  notify:
+    - Restart novnc
+  template:
+    src: default.j2
+    dest: /etc/default/novnc
+  tags:
+    - novnc
+
+- name: Write service file
+  notify:
+    - Restart novnc
+  template:
+    src: service.j2
+    dest: /etc/systemd/system/novnc.service
+  tags:
+    - novnc
+
+- name: Start novnc service
+  systemd:
+    name: novnc
+    state: started
+    daemon_reload: True
+    masked: False
+    enabled: True
+  tags:
+    - novnc
+
+...

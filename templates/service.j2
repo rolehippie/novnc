@@ -1,0 +1,13 @@
+[Unit]
+Description=noVNC remote management via easy-novnc
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+User=nobody
+EnvironmentFile=/etc/default/novnc
+ExecStart=/usr/bin/easy-novnc
+
+[Install]
+WantedBy=multi-user.target
