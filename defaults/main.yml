@@ -36,13 +36,13 @@ novnc_arbitrary_hosts: False
 # @var novnc_arbitrary_ports:description: Allow connections to other ports
 novnc_arbitrary_ports: False
 
-# @var novnc_hosts_selection:description: List of host selection allowed to connect to
-# novnc_hosts_selection:
+# @var novnc_host_option:description: List of host options allowed to connect to
+# novnc_host_option:
 #   - name1:127.0.0.1:5900
 #   - name2:127.0.0.1:5901
 #   - name3:127.0.0.1:5902
 # @end
-novnc_hosts_selection: []
+novnc_host_option: []
 
 # @var novnc_cidr_whitelist:description: List of CIDR whitelist if arbitrary hosts are enabled
 # novnc_cidr_whitelist:

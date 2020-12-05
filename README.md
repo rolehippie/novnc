@@ -24,7 +24,7 @@ Building and improving this Ansible role have been sponsored by my employer **Pr
   * [novnc_cidr_whitelist](#novnc_cidr_whitelist)
   * [novnc_default_view_only](#novnc_default_view_only)
   * [novnc_host](#novnc_host)
-  * [novnc_hosts_selection](#novnc_hosts_selection)
+  * [novnc_host_option](#novnc_host_option)
   * [novnc_no_url_password](#novnc_no_url_password)
   * [novnc_params](#novnc_params)
   * [novnc_port](#novnc_port)
@@ -148,14 +148,14 @@ Default host to connect to
 novnc_host:
 ```
 
-### novnc_hosts_selection
+### novnc_host_option
 
-List of host selection allowed to connect to
+List of host options allowed to connect to
 
 #### Default value
 
 ```YAML
-novnc_hosts_selection: []
+novnc_host_option: []
 ```
 
 ### novnc_no_url_password

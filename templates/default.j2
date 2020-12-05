@@ -11,8 +11,8 @@ NOVNC_PORT={{ novnc_port }}
 {% endif %}
 NOVNC_ARBITRARY_HOSTS={{ novnc_arbitrary_hosts | lower }}
 NOVNC_ARBITRARY_PORTS={{ novnc_arbitrary_ports | lower }}
-{% if novnc_hosts_selection | default(False) %}
-NOVNC_HOSTS_SELECTION={{ novnc_hosts_selection | join(',') }}
+{% if novnc_host_option | default(False) %}
+NOVNC_HOST_OPTION={{ novnc_host_option | join(',') }}
 {% endif %}
 {% if novnc_cidr_whitelist | default(False) %}
 NOVNC_CIDR_WHITELIST={{ novnc_cidr_whitelist | join(',') }}
