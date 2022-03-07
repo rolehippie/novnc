@@ -20,6 +20,8 @@
 # None
 # @end
 galaxy_info:
+  role_name: novnc
+  namespace: rolehippie
   author: Thomas Boerger
   description: Ansible role to install and configure noVNC via easy-novnc
   license: Apache-2.0
