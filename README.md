@@ -1,37 +1,38 @@
 # novnc
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/novnc) [![Testing Build](https://github.com/rolehippie/novnc/workflows/testing/badge.svg)](https://github.com/rolehippie/novnc/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/novnc/workflows/readme/badge.svg)](https://github.com/rolehippie/novnc/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/novnc/workflows/galaxy/badge.svg)](https://github.com/rolehippie/novnc/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/novnc)](https://github.com/rolehippie/novnc/blob/master/LICENSE) 
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/novnc) [![Testing Build](https://github.com/rolehippie/novnc/workflows/testing/badge.svg)](https://github.com/rolehippie/novnc/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/novnc/workflows/readme/badge.svg)](https://github.com/rolehippie/novnc/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/novnc/workflows/galaxy/badge.svg)](https://github.com/rolehippie/novnc/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/novnc)](https://github.com/rolehippie/novnc/blob/master/LICENSE)
 
-Ansible role to install and configure noVNC via easy-novnc. 
+Ansible role to install and configure noVNC via easy-novnc.
 
-## Sponsor 
+## Sponsor
 
-[![Proact Deutschland GmbH](https://proact.eu/wp-content/uploads/2020/03/proact-logo.png)](https://proact.eu) 
+[![Proact Deutschland GmbH](https://proact.eu/wp-content/uploads/2020/03/proact-logo.png)](https://proact.eu)
 
 Building and improving this Ansible role have been sponsored by my employer **Proact Deutschland GmbH**.
 
 ## Table of content
 
-* [Default Variables](#default-variables)
-  * [novnc_address](#novnc_address)
-  * [novnc_arbitrary_hosts](#novnc_arbitrary_hosts)
-  * [novnc_arbitrary_ports](#novnc_arbitrary_ports)
-  * [novnc_basic_ui](#novnc_basic_ui)
-  * [novnc_binary_checksum](#novnc_binary_checksum)
-  * [novnc_binary_url](#novnc_binary_url)
-  * [novnc_binary_version](#novnc_binary_version)
-  * [novnc_cidr_blacklist](#novnc_cidr_blacklist)
-  * [novnc_cidr_whitelist](#novnc_cidr_whitelist)
-  * [novnc_default_view_only](#novnc_default_view_only)
-  * [novnc_host](#novnc_host)
-  * [novnc_host_option](#novnc_host_option)
-  * [novnc_no_url_password](#novnc_no_url_password)
-  * [novnc_params](#novnc_params)
-  * [novnc_port](#novnc_port)
-  * [novnc_verbose](#novnc_verbose)
-* [Dependencies](#dependencies)
-* [License](#license)
-* [Author](#author)
+- [Default Variables](#default-variables)
+  - [novnc_address](#novnc_address)
+  - [novnc_arbitrary_hosts](#novnc_arbitrary_hosts)
+  - [novnc_arbitrary_ports](#novnc_arbitrary_ports)
+  - [novnc_basic_ui](#novnc_basic_ui)
+  - [novnc_binary_checksum](#novnc_binary_checksum)
+  - [novnc_binary_url](#novnc_binary_url)
+  - [novnc_binary_version](#novnc_binary_version)
+  - [novnc_cidr_blacklist](#novnc_cidr_blacklist)
+  - [novnc_cidr_whitelist](#novnc_cidr_whitelist)
+  - [novnc_default_view_only](#novnc_default_view_only)
+  - [novnc_host](#novnc_host)
+  - [novnc_host_option](#novnc_host_option)
+  - [novnc_no_url_password](#novnc_no_url_password)
+  - [novnc_params](#novnc_params)
+  - [novnc_port](#novnc_port)
+  - [novnc_verbose](#novnc_verbose)
+- [Discovered Tags](#discovered-tags)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Author](#author)
 
 ---
 
@@ -196,9 +197,14 @@ Default port to connect to
 novnc_verbose: false
 ```
 
+## Discovered Tags
+
+**_novnc_**
+
+
 ## Dependencies
 
-* None
+- None
 
 ## License
 
