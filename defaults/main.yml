@@ -12,16 +12,16 @@ novnc_binary_checksum: sha256:395407ae7e824a7706bc259f0b8fc1c8b98b068a4bb76a3139
 novnc_address: 0.0.0.0:8080
 
 # @var novnc_basic_ui:description: Hide connection options from the main screen
-novnc_basic_ui: False
+novnc_basic_ui: false
 
 # @var novnc_no_url_password:description: Do not allow password in URL params
-novnc_no_url_password: False
+novnc_no_url_password: false
 
 # @var novnc_default_view_only:description: Use view-only by default
-novnc_default_view_only: False
+novnc_default_view_only: false
 
 # @var novnc_verbose:description: Enable verbos logging for the service
-novnc_verbose: False
+novnc_verbose: false
 
 # @var novnc_host:description: Default host to connect to
 novnc_host:
@@ -30,10 +30,10 @@ novnc_host:
 novnc_port:
 
 # @var novnc_arbitrary_hosts:description: Allow connections to other hosts
-novnc_arbitrary_hosts: False
+novnc_arbitrary_hosts: false
 
 # @var novnc_arbitrary_ports:description: Allow connections to other ports
-novnc_arbitrary_ports: False
+novnc_arbitrary_ports: false
 
 # @var novnc_host_option:description: List of host options allowed to connect to
 # novnc_host_option:

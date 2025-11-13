@@ -3,23 +3,23 @@ NOVNC_BASIC_UI={{ novnc_basic_ui | lower }}
 NOVNC_NO_URL_PASSWORD={{ novnc_no_url_password | lower }}
 NOVNC_DEFAULT_VIEW_ONLY={{ novnc_default_view_only | lower }}
 NOVNC_VERBOSE={{ novnc_verbose | lower }}
-{% if novnc_host | default(False) %}
+{% if novnc_host | default(false) %}
 NOVNC_HOST={{ novnc_host }}
 {% endif %}
-{% if novnc_port | default(False) %}
+{% if novnc_port | default(false) %}
 NOVNC_PORT={{ novnc_port }}
 {% endif %}
 NOVNC_ARBITRARY_HOSTS={{ novnc_arbitrary_hosts | lower }}
 NOVNC_ARBITRARY_PORTS={{ novnc_arbitrary_ports | lower }}
-{% if novnc_host_option | default(False) %}
+{% if novnc_host_option | default(false) %}
 NOVNC_HOST_OPTION={{ novnc_host_option | join(',') }}
 {% endif %}
-{% if novnc_cidr_whitelist | default(False) %}
+{% if novnc_cidr_whitelist | default(false) %}
 NOVNC_CIDR_WHITELIST={{ novnc_cidr_whitelist | join(',') }}
 {% endif %}
-{% if novnc_cidr_blacklist | default(False) %}
+{% if novnc_cidr_blacklist | default(false) %}
 NOVNC_CIDR_BLACKLIST={{ novnc_cidr_blacklist | join(',') }}
 {% endif %}
-{% if novnc_params | default(False) %}
+{% if novnc_params | default(false) %}
 NOVNC_PARAMS={{ novnc_params | join(',') }}
 {% endif %}
