@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/novnc/compare/v2.0.0...v2.1.0) (2025-11-17)
+
+
+### Features
+
+* apply new repo structure and update linting ([afbd43f](https://github.com/rolehippie/novnc/commit/afbd43f78b47accdacf7e539e96dedc762658433))
+
 ## [2.0.0](https://github.com/rolehippie/novnc/compare/v1.0.0...v2.0.0) (2024-02-12)
 
 
