@@ -93,8 +93,7 @@ Checksem of the binary release
 #### Default value
 
 ```YAML
-novnc_binary_checksum: 
-  sha256:395407ae7e824a7706bc259f0b8fc1c8b98b068a4bb76a3139b02c8a331be5b3
+novnc_binary_checksum: sha256:395407ae7e824a7706bc259f0b8fc1c8b98b068a4bb76a3139b02c8a331be5b3
 ```
 
 ### novnc_binary_url
@@ -104,8 +103,7 @@ URL where to get the binary release from
 #### Default value
 
 ```YAML
-novnc_binary_url: https://github.com/pgaskin/easy-novnc/releases/download/v{{ 
-  novnc_binary_version }}/easy-novnc_linux-64bit
+novnc_binary_url: https://github.com/pgaskin/easy-novnc/releases/download/v{{ novnc_binary_version }}/easy-novnc_linux-64bit
 ```
 
 ### novnc_binary_version
