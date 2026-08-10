@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/rolehippie/novnc/compare/v2.2.0...v2.3.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#48](https://github.com/rolehippie/novnc/issues/48)) ([aa7e123](https://github.com/rolehippie/novnc/commit/aa7e1238e2445bd6b0bcbbf533bbc82d9fd509e2))
+* **patch:** update dependency python to v3.14.7 ([#46](https://github.com/rolehippie/novnc/issues/46)) ([3532147](https://github.com/rolehippie/novnc/commit/3532147d338193925a94b8bc616dc7670eb77ccc))
+
 ## [2.2.0](https://github.com/rolehippie/novnc/compare/v2.1.0...v2.2.0) (2026-07-27)
 
 ## [2.1.0](https://github.com/rolehippie/novnc/compare/v2.0.0...v2.1.0) (2025-11-17)
