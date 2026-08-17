@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/novnc/compare/v2.3.0...v2.4.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#51](https://github.com/rolehippie/novnc/issues/51)) ([09e01b6](https://github.com/rolehippie/novnc/commit/09e01b6ae6128160137c5abb93a37b9d9ff9ce99))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#52](https://github.com/rolehippie/novnc/issues/52)) ([779bc89](https://github.com/rolehippie/novnc/commit/779bc89260d64fd6df106a518c77bca1dd4683ea))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#49](https://github.com/rolehippie/novnc/issues/49)) ([36087f6](https://github.com/rolehippie/novnc/commit/36087f679530a3f8f08e41ed1b816922cd846f27))
+* **patch:** update dependency pre-commit to v4.6.2 ([#50](https://github.com/rolehippie/novnc/issues/50)) ([b4337af](https://github.com/rolehippie/novnc/commit/b4337af5329eaf13ee9c5be57a7c9f38ec14f090))
+
 ## [2.3.0](https://github.com/rolehippie/novnc/compare/v2.2.0...v2.3.0) (2026-08-10)
 
 ### Dependencies
